@@ -277,6 +277,11 @@ mode "$mode_launcher" {
 bindsym XF86MonBrightnessUp exec xbacklight -inc 10
 bindsym XF86MonBrightnessDown exec xbacklight -dec 10
 
+# Screenshots
+bindsym Print exec gnome-screenshot -c -f ~/Images/screenshots/$(date +%Y-%m-%d_%H:%M:%S).jpg
+bindsym Shift+Print exec gnome-screenshot -a -c -f ~/Images/screenshots/$(date +%Y-%m-%d_%H:%M:%S).jpg
+bindsym Ctrl+Print exec gnome-screenshot -w -c -f ~/Images/screenshots/$(date +%Y-%m-%d_%H:%M:%S).jpg
+
 # Background wallpaper
 exec --no-startup-id feh --bg-scale --zoom fill /home/tommy/Images/milky.jpg
 
