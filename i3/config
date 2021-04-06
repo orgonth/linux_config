@@ -25,7 +25,7 @@ set $base09 #f99170
 set $base0A #ffefcc
 set $base0B #a5ffe1
 set $base0C #97e0ff
-set $bg_focus        #0d468c
+set $bg_focus        #5294E2
 set $base0E #c0b7f9
 set $base0F #fcc09e
 
